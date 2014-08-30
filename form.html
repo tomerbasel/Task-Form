@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="myscript.js"></script>
+</head>
+<body>
+
+<form name="theForm" >
+
+name:<input type='text' name='name' id='name'> <br>
+last name:<input type='text' name='gender' ><br>
+Email:<input type='text' name='mail' > <br>
+
+<input type="button" onclick="test();" value="Click Me!">
+
+What type of vacation would you like to have?:<br>
+<select  id= "tomer">
+  <option value="Outdoor/extreme">Outdoor/extreme</option>
+  <option value="Explore cultur">Explore cultur</option>
+  <option value="Party">Party</option>
+  <option value="Hotel/relax">Hotel/relax</option> <br>	
+</select><br>
+
+Do you have any vacation limitations?<br>
+<b>Mark only 3 please!</b><br>
+<INPUT TYPE="checkbox" NAME="time" 
+onClick="return KeepCount()"> I have less then one week to live<br>
+<INPUT TYPE="checkbox" NAME="dog" 
+onClick="return KeepCount()"> My dog will miss me <br>
+<INPUT TYPE="checkbox" NAME="doggy" 
+onClick="return KeepCount()"> I am a Dog <br>
+<INPUT TYPE="checkbox" NAME="kangaroo" 
+onClick="return KeepCount()"> Im afraid of kangaroo<br>
+<INPUT TYPE="checkbox" NAME="age" 
+onClick="return KeepCount()"> Im less then 5 years old <br>
+
+
+<input type="button" value="submit" onclick="formsummery();" >
+</form>     
+
+		<div align= "right" >
+			<h2>Your summery</h2>
+			<p id="demo"></p>
+
+		</div>
+
+</body>
+</html>
