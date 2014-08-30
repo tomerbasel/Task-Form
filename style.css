@@ -1,0 +1,47 @@
+
+
+body{
+
+	background-color: #3b5998;
+	background height: 50%
+
+}
+
+h1 {
+
+	color: #3b5998;
+	background-color: white;
+	border-radius: 20px;
+	text-align: center;
+}
+
+h2,h3{
+
+	color: #3b5998;
+	text-align: left;
+
+}
+
+
+
+#divform{
+	background: white;
+	text-align: left;
+	padding-left: 30px;
+	width: 400px;
+	height: 500px;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px grey;
+}
+
+#divform {size: 500px * 400px;}
+
+
+input {
+	color: red
+	border-radius:20px;
+}
+
+#butt{background-color: pink;  border-radius: 5px; box-shadow: 5px 5px 5px grey;}
+
+

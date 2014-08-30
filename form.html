@@ -7,24 +7,28 @@
     <script src="myscript.js"></script>
 </head>
 <body>
+<h1>your vacation order</h1>
 
+<div id=divform>
+
+	<h2>Pleae fill out your details</h2>
 <form name="theForm" >
 
 name:<input type='text' name='name' id='name'> <br>
-last name:<input type='text' name='gender' ><br>
+last name:<input type='text' name='lastName' ><br>
 Email:<input type='text' name='mail' > <br>
 
-<input type="button" onclick="test();" value="Click Me!">
 
-What type of vacation would you like to have?:<br>
+
+<h3>What type of vacation would you like to have?</h3>
 <select  id= "tomer">
-  <option value="Outdoor/extreme">Outdoor/extreme</option>
-  <option value="Explore cultur">Explore cultur</option>
-  <option value="Party">Party</option>
-  <option value="Hotel/relax">Hotel/relax</option> <br>	
+  <option value="001">Outdoor/extreme</option>
+  <option value="002">Explore cultur</option>
+  <option value="003">Party</option>
+  <option value="004">Hotel/relax</option> <br>	
 </select><br>
 
-Do you have any vacation limitations?<br>
+<h3>Do you have any vacation limitations?</h3>
 <b>Mark only 3 please!</b><br>
 <INPUT TYPE="checkbox" NAME="time" 
 onClick="return KeepCount()"> I have less then one week to live<br>
@@ -35,11 +39,12 @@ onClick="return KeepCount()"> I am a Dog <br>
 <INPUT TYPE="checkbox" NAME="kangaroo" 
 onClick="return KeepCount()"> Im afraid of kangaroo<br>
 <INPUT TYPE="checkbox" NAME="age" 
-onClick="return KeepCount()"> Im less then 5 years old <br>
+onClick="return KeepCount()"> Im less then 5 years old <br><br><br>
 
 
-<input type="button" value="submit" onclick="formsummery();" >
-</form>     
+<input type="button" id="butt" value="submit" onclick="validation();" >
+</form>   
+</div>  
 
 		<div align= "right" >
 			<h2>Your summery</h2>
